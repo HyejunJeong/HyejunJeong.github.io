@@ -1,0 +1,205 @@
+@import "minima";
+
+/* Custom styles for academic website */
+
+/* Header and navigation */
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 54px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+/* Home page specific styles */
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+
+.profile-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Publications page */
+.publication-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.publication-title {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.publication-authors {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.publication-venue {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.publication-links a {
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.publication-links a:hover {
+  background-color: #e0e0e0;
+}
+
+/* Projects page */
+.project-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.project-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.project-links a {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.project-links a:hover {
+  background-color: #005c99;
+}
+
+/* News section */
+.news-item {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #007acc;
+}
+
+/* Research interests */
+.research-interests ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.research-interests li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* CV styles */
+.cv-section {
+  margin-bottom: 2rem;
+}
+
+.cv-section h3 {
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.5rem;
+}
+
+.cv-item {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.cv-item-title {
+  font-weight: bold;
+}
+
+.cv-item-meta {
+  font-style: italic;
+  color: #666;
+}
+
+/* Contact page */
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.contact-section {
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 800px) {
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Quick links styling */
+.quick-links {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin: 2rem 0;
+}
+
+.quick-links ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.quick-links li a {
+  padding: 0.5rem 1rem;
+  background-color: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.quick-links li a:hover {
+  background-color: #005c99;
+}

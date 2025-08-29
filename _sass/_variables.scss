@@ -1,0 +1,151 @@
+//
+// DESIGN SYSTEM - Modern Academic Theme
+//
+
+// Primary Colors - Balanced Design with Purple Accents
+$primary: #2c3e50;          // Professional dark gray
+$primaryLight: #a29bfe;     // Light purple (for buttons & accents)
+$primaryDark: #1a252f;      // Very dark gray
+$accent: #6c5ce7;           // Beautiful purple (main accent)
+$accentLight: #fd79a8;      // Pink accent
+
+// Neutral Colors - Modern Grayscale
+$white: #ffffff;
+$offWhite: #fafbfc;
+$lightGray: #f8f9fa;
+$gray: #6c757d;
+$darkGray: #495057;
+$darkerGray: #343a40;
+$black: #2c3e50;
+
+// Semantic Colors
+$success: #27ae60;
+$warning: #f39c12;
+$error: #e74c3c;
+$info: #3498db;
+
+// Typography Colors
+$textPrimary: #2c3e50;
+$textSecondary: #6c757d;
+$textMuted: #adb5bd;
+$linkColor: #6c5ce7;
+$linkHover: #a29bfe;
+
+// Background Colors
+$backgroundPrimary: #ffffff;
+$backgroundSecondary: #f8f9fa;
+$backgroundDark: #2c3e50;
+
+// Border Colors
+$borderLight: #e9ecef;
+$borderMedium: #dee2e6;
+$borderDark: #adb5bd;
+
+// Shadow System
+$shadowLight: 0 2px 4px rgba(0, 0, 0, 0.1);
+$shadowMedium: 0 4px 12px rgba(0, 0, 0, 0.15);
+$shadowHeavy: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+// Spacing Scale
+$space-xs: 0.25rem;    // 4px
+$space-sm: 0.5rem;     // 8px
+$space-md: 1rem;       // 16px
+$space-lg: 1.5rem;     // 24px
+$space-xl: 2rem;       // 32px
+$space-2xl: 3rem;      // 48px
+$space-3xl: 4rem;      // 64px
+
+// Border Radius
+$radiusSmall: 4px;
+$radiusMedium: 8px;
+$radiusLarge: 12px;
+$radiusXL: 16px;
+
+// Typography Scale
+$fontSizeXS: 0.75rem;    // 12px
+$fontSizeSM: 0.875rem;   // 14px
+$fontSizeBase: 1rem;     // 16px
+$fontSizeLG: 1.125rem;   // 18px
+$fontSizeXL: 1.25rem;    // 20px
+$fontSize2XL: 1.5rem;    // 24px
+$fontSize3XL: 2rem;      // 32px
+$fontSize4XL: 2.5rem;    // 40px
+$fontSize5XL: 3rem;      // 48px
+
+// Font Families
+$fontPrimary: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$fontSecondary: 'Nunito', 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+$fontMono: 'JetBrains Mono', 'Fira Code', monospace;
+
+// Font Weights
+$fontLight: 300;
+$fontRegular: 400;
+$fontMedium: 500;
+$fontSemiBold: 600;
+$fontBold: 700;
+
+// Line Heights
+$lineHeightTight: 1.2;
+$lineHeightNormal: 1.5;
+$lineHeightRelaxed: 1.75;
+
+// Container Sizes
+$containerSM: 640px;
+$containerMD: 768px;
+$containerLG: 1024px;
+$containerXL: 1280px;
+$containerMaxWidth: 1200px;
+
+// Z-index Scale
+$zIndexDropdown: 1000;
+$zIndexFixed: 1020;
+$zIndexModalBackdrop: 1040;
+$zIndexModal: 1050;
+$zIndexTooltip: 1070;
+
+// Transitions
+$transitionFast: 150ms ease-in-out;
+$transitionBase: 300ms ease-in-out;
+$transitionSlow: 500ms ease-in-out;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}
+
+// Utility mixins
+@mixin centerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin hoverLift {
+  transition: transform $transitionBase, box-shadow $transitionBase;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $shadowMedium;
+  }
+}

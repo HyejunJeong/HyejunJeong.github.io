@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:jekyllthemes.io)",
+      "WebFetch(domain:github.com)",
+      "Bash(git clone:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "WebFetch(domain:scholar.google.com)",
+      "WebSearch",
+      "WebFetch(domain:jrohsc.github.io)",
+      "Bash(python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

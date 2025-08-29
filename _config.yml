@@ -1,0 +1,47 @@
+title: "June Jeong"
+name: "Hyejun Jeong"
+author: "Hyejun Jeong"
+description: "PhD Student in CS @ UMass Amherst"
+avatar: /images/june.jpg
+
+url: "https://HyejunJeong.github.io"
+enforce_ssl: "https://HyejunJeong.github.io"
+baseurl: ""   # empty for user/organization site
+
+theme: minima
+
+paginate: 6
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: "/:title/"
+version: v1.2.0
+
+footer-links:
+  email: hjeong@umass.edu
+  github: HyejunJeong
+  rss: rss
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+sass:
+  style: expanded
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
