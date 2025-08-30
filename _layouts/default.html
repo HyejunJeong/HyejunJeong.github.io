@@ -171,11 +171,24 @@
     
     window.addEventListener('scroll', () => {
       const currentScrollY = window.scrollY;
+      
+      // Hide mobile menu on scroll
       if (navigation && navigation.classList.contains('active') && 
           (currentScrollY > lastScrollY + 5 || currentScrollY < lastScrollY - 5)) {
         mobileToggle.classList.remove('active');
         navigation.classList.remove('active');
       }
+      
+      // Hide site description on mobile when scrolling
+      const siteDescription = document.querySelector('.site-description');
+      if (siteDescription && window.innerWidth <= 768) {
+        if (currentScrollY > 50) {
+          siteDescription.classList.add('mobile-hidden');
+        } else {
+          siteDescription.classList.remove('mobile-hidden');
+        }
+      }
+      
       lastScrollY = currentScrollY;
     });
 
