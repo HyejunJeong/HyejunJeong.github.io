@@ -181,10 +181,15 @@
       
       // Hide site description on mobile when scrolling
       const siteDescription = document.querySelector('.site-description');
-      if (siteDescription && window.innerWidth <= 768) {
-        if (currentScrollY > 50) {
-          siteDescription.classList.add('mobile-hidden');
+      if (siteDescription) {
+        if (window.innerWidth <= 768) {
+          if (currentScrollY > 50) {
+            siteDescription.classList.add('mobile-hidden');
+          } else {
+            siteDescription.classList.remove('mobile-hidden');
+          }
         } else {
+          // Remove hidden class on desktop
           siteDescription.classList.remove('mobile-hidden');
         }
       }
@@ -199,6 +204,15 @@
           !mobileToggle.contains(e.target)) {
         mobileToggle.classList.remove('active');
         navigation.classList.remove('active');
+      }
+    });
+
+    // Handle window resize to ensure site description behavior works correctly
+    window.addEventListener('resize', () => {
+      const siteDescription = document.querySelector('.site-description');
+      if (siteDescription && window.innerWidth > 768) {
+        // Remove hidden class when switching to desktop
+        siteDescription.classList.remove('mobile-hidden');
       }
     });
 
