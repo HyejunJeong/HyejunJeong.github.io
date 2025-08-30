@@ -166,14 +166,27 @@
       });
     }
 
-    // Hide mobile menu on scroll
+    // Hide mobile menu on scroll and clicks outside
     let lastScrollY = window.scrollY;
+    
     window.addEventListener('scroll', () => {
-      if (window.scrollY > lastScrollY && navigation.classList.contains('active')) {
+      const currentScrollY = window.scrollY;
+      if (navigation && navigation.classList.contains('active') && 
+          (currentScrollY > lastScrollY + 5 || currentScrollY < lastScrollY - 5)) {
         mobileToggle.classList.remove('active');
         navigation.classList.remove('active');
       }
-      lastScrollY = window.scrollY;
+      lastScrollY = currentScrollY;
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (navigation && navigation.classList.contains('active') && 
+          !navigation.contains(e.target) && 
+          !mobileToggle.contains(e.target)) {
+        mobileToggle.classList.remove('active');
+        navigation.classList.remove('active');
+      }
     });
 
     // Smooth scrolling for anchor links

@@ -350,10 +350,10 @@ blockquote {
 
 .site-info {
   flex: 1;
-  margin-left: $space-lg;
+  margin-left: $space-xl;
   
   @include mobile {
-    margin-left: $space-md;
+    margin-left: $space-xl;
     margin-bottom: 0;
     flex: 1;
   }
