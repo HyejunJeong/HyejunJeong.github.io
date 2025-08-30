@@ -298,9 +298,10 @@ blockquote {
   justify-content: space-between;
   
   @include mobile {
-    flex-direction: column;
-    text-align: center;
-    padding: $space-md 0;
+    flex-direction: row;
+    text-align: left;
+    padding: $space-sm 0;
+    min-height: 60px;
   }
 }
 
@@ -349,9 +350,12 @@ blockquote {
 
 .site-info {
   flex: 1;
+  margin-left: $space-lg;
   
   @include mobile {
-    margin-bottom: $space-lg;
+    margin-left: $space-md;
+    margin-bottom: 0;
+    flex: 1;
   }
 }
 

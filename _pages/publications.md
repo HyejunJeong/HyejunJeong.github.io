@@ -8,7 +8,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
-    <img src="{{ site.baseurl }}/images/webagent.png" alt="Network-Level Prompt and Trait Leakage">
+    <img src="{{ site.baseurl }}/assets/images/webagent.png" alt="Network-Level Prompt and Trait Leakage">
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -29,7 +29,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
-    <img src="{{ site.baseurl }}/images/bias.png" alt="Bias Similarity Across Large Language Models">
+    <img src="{{ site.baseurl }}/assets/images/bias.png" alt="Bias Similarity Across Large Language Models">
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -49,7 +49,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
-    <img src="{{ site.baseurl }}/images/FU.png" alt="SoK: Challenges and Opportunities in Federated Unlearning">
+    <img src="{{ site.baseurl }}/assets/images/FU.png" alt="SoK: Challenges and Opportunities in Federated Unlearning">
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -72,7 +72,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
-    <img src="{{ site.baseurl }}/images/fedcc.png" alt="FedCC: Robust Federated Learning against Model Poisoning Attacks">
+    <img src="{{ site.baseurl }}/assets/images/fedcc.png" alt="FedCC: Robust Federated Learning against Model Poisoning Attacks">
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -95,7 +95,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
-    <img src="{{ site.baseurl }}/images/secfed.png" alt="Security and Privacy Issues and Solutions in Federated Learning for Digital Healthcare">
+    <img src="{{ site.baseurl }}/assets/images/secfed.png" alt="Security and Privacy Issues and Solutions in Federated Learning for Digital Healthcare">
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -115,7 +115,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
-    <img src="{{ site.baseurl }}/images/open-fed.png" alt="Open problems in medical federated learning">
+    <img src="{{ site.baseurl }}/assets/images/open-fed.png" alt="Open problems in medical federated learning">
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -139,7 +139,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
-    <img src="{{ site.baseurl }}/images/fedlearning.png" alt="Federated Learning: Issues in Medical Application">
+    <img src="{{ site.baseurl }}/assets/images/fedlearning.png" alt="Federated Learning: Issues in Medical Application">
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -159,7 +159,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">☠️
-    <!-- <img src="{{ site.baseurl }}/images/pfcm.png" alt="Are You a Good Client? Client Classification in Federated Learning"> -->
+    <!-- <img src="{{ site.baseurl }}/assets/images/pfcm.png" alt="Are You a Good Client? Client Classification in Federated Learning"> -->
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -179,7 +179,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
-    <img src="{{ site.baseurl }}/images/pfcm.png" alt="Personalized federated learning with clustering">
+    <img src="{{ site.baseurl }}/assets/images/pfcm.png" alt="Personalized federated learning with clustering">
   </div>
   <div class="pub-content">
     <div class="pub-title">
@@ -211,7 +211,7 @@ permalink: /publications/
     UMass
   </div>
   <div class="pub-links">
-    <a href="/assets/poster.pdf">📄 View Poster (PDF)</a>
+    <a href="/assets/papers/poster.pdf">📄 View Poster (PDF)</a>
   </div>
 </div>
 
