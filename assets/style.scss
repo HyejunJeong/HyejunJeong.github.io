@@ -798,21 +798,10 @@ footer {
   gap: $space-sm;
   
   @include mobile {
-    position: fixed;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: $white;
-    flex-direction: column;
-    padding: $space-lg;
-    box-shadow: $shadowHeavy;
-    transform: translateY(0);
-    transition: transform $transitionBase;
-    z-index: $zIndexModal;
-    
-    &.active {
-      transform: translateY(-100%);
-    }
+    display: flex;
+    flex-direction: row;
+    gap: $space-xs;
+    flex-wrap: nowrap;
   }
   
   .nav-link {
@@ -830,6 +819,12 @@ footer {
     text-decoration: none;
     overflow: hidden;
     backdrop-filter: blur(10px);
+    
+    @include mobile {
+      padding: $space-xs $space-sm;
+      font-size: $fontSizeXS;
+      gap: $space-xs;
+    }
     
     &::before {
       content: '';
@@ -893,7 +888,7 @@ footer {
   padding: $space-sm;
   
   @include mobile {
-    display: flex;
+    display: none;
   }
   
   span {
@@ -928,7 +923,7 @@ footer {
   flex-wrap: wrap;
   
   @include mobile {
-    justify-content: center;
+    display: none;
   }
 }
 
@@ -1075,8 +1070,9 @@ footer {
   margin-bottom: $space-lg;
   
   @include mobile {
-    flex-direction: column;
-    gap: $space-md;
+    flex-direction: row;
+    gap: $space-sm;
+    flex-wrap: wrap;
   }
 }
 
@@ -1131,7 +1127,7 @@ footer {
   }
   
   .site-badges {
-    justify-content: center;
+    display: none;
   }
   
   .footer-content {
