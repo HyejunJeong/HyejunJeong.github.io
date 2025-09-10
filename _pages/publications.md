@@ -23,6 +23,8 @@ permalink: /publications/
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2508.20282">📄 Paper</a>
+      <a href="https://github.com/umass-aisec/wra">💻 Code</a>
+      <a href="https://huggingface.co/datasets/juniworld/prompt_inference_traces">🗂️ Dataset</a>
     </div>
   </div>
 </div>
