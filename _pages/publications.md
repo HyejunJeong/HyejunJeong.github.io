@@ -35,7 +35,7 @@ permalink: /publications/
   </div>
   <div class="pub-content">
     <div class="pub-title">
-      <strong>Bias Similarity Across Large Language Models</strong>
+      <strong>Bias Similarity Measurement: A Black-Box Audit of Fairness Across 30 LLMs</strong>
     </div>
     <div class="pub-authors">
       <em><strong>Hyejun Jeong</strong>, Shiqing Ma, Amir Houmansadr.</em>
@@ -45,6 +45,7 @@ permalink: /publications/
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2410.12010">📄 Paper</a>
+      <a href="https://github.com/HyejunJeong/bias_llm">💻 Code</a>
     </div>
   </div>
 </div>
@@ -65,6 +66,7 @@ permalink: /publications/
     </div>
     <div class="pub-links">
       <a href="https://openreview.net/forum?id=h4BqTU2oVE">📄 Paper</a>
+      <a href="/assets/papers/nesd.pdf">🖥️ View Slides (PDF)</a>
     </div>
   </div>
 </div>
@@ -88,6 +90,7 @@ permalink: /publications/
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2212.01976">📄 Paper</a>
+      <a href="/assets/papers/fedcc.pdf">🖥️ View Slides (PDF)</a>
     </div>
   </div>
 </div>
