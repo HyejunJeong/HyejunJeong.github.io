@@ -113,8 +113,31 @@ h4 {
 }
 
 p {
-  margin: 0 0 $space-lg;
+  margin: 0 0 $space-md;
   line-height: $lineHeightRelaxed;
+}
+
+ul, ol {
+  margin: 0 0 $space-lg 0;
+  padding-left: $space-xl;
+  line-height: $lineHeightRelaxed;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin-bottom: $space-xs;
+  color: $textPrimary;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 strong, b {
