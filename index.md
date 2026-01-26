@@ -25,9 +25,11 @@ My goal is to <em>identify security and privacy risks in AI systems and design d
 ---
 
 ## 📢 Recent News
+- 📊 **Jan 2026** – <em>Bias similarity across 30 LLMs</em> (Accepted to ICML 2026)
+- 🛡️ **Jan 2026** – <em>AI Web and Research Agents (WRAs)</em>  (Accepted to USENIX 2026)
 - 🛡️ **May 2025** – Researching vulnerabilities in <em>AI Web and Research Agents (WRAs)</em>  
 - 🧩 **Mar 2025** – Developing an <em>inference attack on unlearning samples</em>  
-- 📊 **May 2024** – Analyzed <em>bias similarity across 24 LLMs</em>  
+- 📊 **May 2024** – Analyzed <em>bias similarity across 30 LLMs</em>  
 - 🎤 **Mar 2024** – Presented research on <em>federated unlearning</em> at <em>NESD 2024</em>  
 - 📄 **Aug 2023** – Authored a <em>survey paper on federated unlearning systems</em>  
 - 🎓 **Aug 2023** – Started PhD in Computer Science at UMass Amherst  

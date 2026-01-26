@@ -4,8 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-## Preprint
-
+## 2026
 <div class="publication-item">
   <div class="pub-image-placeholder">
     <img src="{{ site.baseurl }}/assets/images/webagent.png" alt="Network-Level Prompt and Trait Leakage">
@@ -19,7 +18,7 @@ permalink: /publications/
       Amir Houmansadr, Eugene Bagdasarian.</em>
     </div>
     <div class="pub-venue">
-      arXiv preprint, 2025
+      USENIX, 2026
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2508.20282">📄 Paper</a>
@@ -35,13 +34,13 @@ permalink: /publications/
   </div>
   <div class="pub-content">
     <div class="pub-title">
-      <strong>Bias Similarity Measurement: A Black-Box Audit of Fairness Across 30 LLMs</strong>
+      <strong>Bias Similarity Measurement: A Black-Box Audit of Fairness Across LLMs</strong>
     </div>
     <div class="pub-authors">
       <em><strong>Hyejun Jeong</strong>, Shiqing Ma, Amir Houmansadr.</em>
     </div>
     <div class="pub-venue">
-      arXiv preprint, 2025
+      ICML, 2026
     </div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2410.12010">📄 Paper</a>
@@ -49,6 +48,8 @@ permalink: /publications/
     </div>
   </div>
 </div>
+
+## Preprint
 
 <div class="publication-item">
   <div class="pub-image-placeholder">
