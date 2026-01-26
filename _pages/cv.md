@@ -6,7 +6,7 @@ permalink: /cv/
 
 <!-- # Hyejun (June) Jeong -->
 
-**PhD Student in Computer Science**  
+**PhD Candidate in Computer Science**  
 University of Massachusetts Amherst  
 [hjeong[at]umass.edu](mailto:hjeong@umass.edu) · [Website](https://hyejunjeong.github.io) · [LinkedIn](https://linkedin.com/in/june-jeong-311a311a1)  
 

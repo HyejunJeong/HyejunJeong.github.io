@@ -4,7 +4,7 @@ title: Home
 ---
 
 ## About
-I am a 3rd-year PhD student in Computer Science at UMass Amherst, advised by [Amir Houmansadr](https://people.cs.umass.edu/~amir/) and co-advised by [Eugene Bagdasarian](https://people.cs.umass.edu/~eugene/). 
+I am a PhD candidate in Computer Science at UMass Amherst, advised by [Amir Houmansadr](https://people.cs.umass.edu/~amir/) and co-advised by [Eugene Bagdasarian](https://people.cs.umass.edu/~eugene/). 
 
 My research centers on **trustworthy and responsible AI, AI agent security, and AI safety**. I study **AI agent vulnerabilities, LLM fairness, adversarial robustness, and unlearning**. I also mentor undergraduates and support teaching in computer and network security.
 
