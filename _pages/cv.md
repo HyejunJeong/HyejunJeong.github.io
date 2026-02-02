@@ -16,8 +16,10 @@ University of Massachusetts Amherst
 
 ## Research Interests
 
-I study **security and privacy in AI systems**, including large language models (LLMs) and autonomous AI agents.  
-My current work focuses on vulnerabilities in agent pipelines, missing security properties, and risks of **persuasion or persona manipulation**. I have also conducted research on **fairness and bias similarity in LLMs** and on **federated learning** with emphasis on robustness, privacy, and unlearning. More broadly, I am interested in **trustworthy and responsible AI** and in developing **privacy-preserving methods** for collaborative and agent-based learning.
+I study **security, privacy, and behavioral properties of AI agent systems**, where large language models interact with tools, memory, and external environments over multiple steps.
+In these settings, agent behavior—including actions, tool use, and execution traces—reveals properties that cannot be captured by analyzing model outputs alone.
+
+My work focuses on identifying **weaknesses, strengths, and emergent behaviors unique to agentic AI**, such as **network-level information leakage**, **behavioral drift under persuasion**, and **persistent bias patterns across LLM families**.
 
 ---
 
@@ -25,7 +27,7 @@ My current work focuses on vulnerabilities in agent pipelines, missing security 
 
 **Ph.D. in Computer Science** *(2023 – Present)*  
 University of Massachusetts Amherst  
-*Advisors: Amir Houmansadr, Eugene Bagdasaryan*  
+*Advisors: Amir Houmansadr, Eugene Bagdasarian*  
 
 **M.S. in Computer Science** *(2021 – 2023)*  
 SungKyunKwan University (SKKU), South Korea  
@@ -40,6 +42,10 @@ Stony Brook University (SBU), New York
 ## Publications & Presentations
 
 **Peer-Reviewed**
+- **H. Jeong**, M. Teymoorianfard, A. Kumar, A. Houmansadr, E. Bagdasarian. *Network-Level Prompt and Trait Leakage in Local Research Agents.* 
+USENIX Security 2026. [[Paper]](https://arxiv.org/abs/2508.20282) [[Code]](https://github.com/umass-aisec/wra) [[Dataset]](https://huggingface.co/datasets/juniworld/prompt_inference_traces)
+- **H. Jeong**, S. Ma, A. Houmansadr. *Bias Similarity Measurement: A Black-Box Audit of Fairness Across LLMs.* 
+ICLR 2026. [[Paper]](https://arxiv.org/abs/2410.12010) [[Code]](https://github.com/HyejunJeong/bias_llm)
 - **H. Jeong**, H. Son, S. Lee, J. Hyun, T.-M. Chung. *FedCC: Robust Federated Learning Against Model Poisoning Attacks.* SecureComm 2025. [[Paper]](https://arxiv.org/abs/2212.01976) [[Code]](https://github.com/HyejunJeong/FedCC) [[Slides]](https://hyejunjeong.github.io/assets/papers/fedcc.pdf)
 - **H. Jeong**, T.-M. Chung. *Security and Privacy Issues and Solutions in Federated Learning for Digital Healthcare.* FDSE 2022. [[Paper]](https://books.google.com/books?hl=en&lr=&id=N_ycEAAAQBAJ&oi=fnd&pg=PA316)
 - J.H. Yoo, **H. Jeong**, J. Lee, T.-M. Chung. *Open Problems in Medical Federated Learning.* IJWIS 2022. [[Paper]](https://www.emerald.com/ijwis/article/18/2-3/77/164157/Open-problems-in-medical-federated-learning)
@@ -47,8 +53,6 @@ Stony Brook University (SBU), New York
 - **H. Jeong**, J. An, J. Jeong. *Are You a Good Client? Client Classification in Federated Learning.* ICTC 2020. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9620836) [[Code]](https://github.com/HyejunJeong/rugc)  
 
 **Preprints / Under Review**
-- **H. Jeong**, M. Teymoorianfard, A. Kumar, A. Houmansadr, E. Bagdasaryan. *Network-Level Prompt and Trait Leakage in Local Research Agents.* arXiv:2508.20282, under review (USENIX 2026). [[Paper]](https://arxiv.org/abs/2508.20282) [[Code]](https://github.com/umass-aisec/wra) [[Dataset]](https://huggingface.co/datasets/juniworld/prompt_inference_traces)
-- **H. Jeong**, S. Ma, A. Houmansadr. *Bias Similarity Measurement: A Black-Box Audit of Fairness Across 30 LLMs.* arXiv:2410.12010, under review (ICLR 2026). [[Paper]](https://arxiv.org/abs/2410.12010) [[Code]](https://github.com/HyejunJeong/bias_llm)
 - **H. Jeong**, S. Ma, A. Houmansadr. *SoK: Challenges and Opportunities in Federated Unlearning.* Preprint, under review (IEEE Big Data 2025). [[Paper]](https://openreview.net/forum?id=h4BqTU2oVE) [[Slides]](https://hyejunjeong.github.io/assets/papers/nesd.pdf)  
 
 **Patent**
@@ -59,16 +63,19 @@ Stony Brook University (SBU), New York
 ## Research Experience
 
 **Research Assistant, University of Massachusetts Amherst** *(2023 – Present)*  
-- Designed attacks inferring prompts/persona traits from browsing traces; released datasets & tools.  
-- Built cross-family bias comparison pipelines across 30+ LLMs; led first-author manuscripts.  
-- Initiated and led a systematization-of-knowledge (SoK) project on federated unlearning.  
+- Conduct research on **security, privacy, and behavioral risks in LLM-based AI agents**.  
+- Led work on **network-level prompt and trait leakage in web/research agents**, demonstrating inference attacks from encrypted metadata (USENIX Security).  
+- Investigated **persuasion propagation in agentic LLMs**, analyzing how task-irrelevant beliefs affect downstream behavior in web navigation and coding tasks.  
+- Studied **bias similarity across LLM families**, comparing open- and closed-source models using behavioral and representation-level metrics (ICLR).  
+- Initiated a **survey** project on federated unlearning, identifying evaluation gaps and limitations in existing approaches.  
+- Designed large-scale experimental pipelines and released open-source code and datasets.
 
 **Research Assistant, SungKyunKwan University (SKKU), South Korea** *(2021 – 2023)*  
 - Studied defenses against backdoor and poisoning attacks in federated learning.  
-- Conducted privacy-preserving medical FL research; co-authored peer-reviewed publications.  
+- Conducted privacy-preserving federated learning research in medical settings; co-authored peer-reviewed publications.
 
 **Undergraduate Research Assistant, Stony Brook University (SBU)** *(2019)*  
-- Built and validated a GPS spoofing detection pipeline using a sensor and a camera.  
+- Built and validated a GPS spoofing detection pipeline using sensor fusion and camera-based signals.
 
 ---
 
