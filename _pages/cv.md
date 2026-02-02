@@ -10,13 +10,14 @@ permalink: /cv/
 University of Massachusetts Amherst  
 [hjeong[at]umass.edu](mailto:hjeong@umass.edu) · [Website](https://hyejunjeong.github.io) · [LinkedIn](https://linkedin.com/in/june-jeong-311a311a1)  
 
-**[Download PDF Version](/assets/cv.pdf)**
+<!-- **[Download PDF Version](/assets/cv.pdf)** -->
+**Download [Concise](/assets/cv_concise.pdf) · [Full academic](/assets/cv_full.pdf) CV**
 
 ---
 
 ## Research Interests
 
-I study **security, privacy, and behavioral properties of AI agent systems**, where large language models interact with tools, memory, and external environments over multiple steps.
+I study **security, privacy, and behavioral properties of AI agent systems**, where LLMs interact with tools, memory, and external environments over multiple steps.
 In these settings, agent behavior—including actions, tool use, and execution traces—reveals properties that cannot be captured by analyzing model outputs alone.
 
 My work focuses on identifying **weaknesses, strengths, and emergent behaviors unique to agentic AI**, such as **network-level information leakage**, **behavioral drift under persuasion**, and **persistent bias patterns across LLM families**.
