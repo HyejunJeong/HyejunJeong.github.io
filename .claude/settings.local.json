@@ -10,7 +10,10 @@
       "WebFetch(domain:scholar.google.com)",
       "WebSearch",
       "WebFetch(domain:jrohsc.github.io)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(du:*)"
     ],
     "deny": [],
     "ask": []

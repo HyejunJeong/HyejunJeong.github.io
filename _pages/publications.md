@@ -51,6 +51,28 @@ permalink: /publications/
 
 ## Preprint
 
+
+<div class="publication-item">
+  <div class="pub-image-placeholder">
+    <img src="{{ site.baseurl }}/assets/images/persuasion.png" alt="Persuasion Propagation in LLM Agents">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">
+      <strong>Persuasion Propagation in LLM Agents</strong>
+    </div>
+    <div class="pub-authors">
+      <em><strong>Hyejun Jeong</strong>, Amir Houmansadr, Shlomo Zilberstein, Eugene Bagdasarian.</em>
+    </div>
+    <div class="pub-venue">
+      arXiv preprint, 2026
+    </div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2602.00851">📄 Paper</a>
+      <a href="https://github.com/HyejunJeong/persuasion-propagation">💻 Code</a>
+    </div>
+  </div>
+</div>
+
 <div class="publication-item">
   <div class="pub-image-placeholder">
     <img src="{{ site.baseurl }}/assets/images/FU.png" alt="SoK: Challenges and Opportunities in Federated Unlearning">

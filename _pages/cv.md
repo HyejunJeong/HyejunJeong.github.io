@@ -54,6 +54,11 @@ ICLR 2026. [[Paper]](https://arxiv.org/abs/2410.12010) [[Code]](https://github.c
 - **H. Jeong**, J. An, J. Jeong. *Are You a Good Client? Client Classification in Federated Learning.* ICTC 2020. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9620836) [[Code]](https://github.com/HyejunJeong/rugc)  
 
 **Preprints / Under Review**
+- **H. Jeong**, A. Houmansadr, S. Zilberstein, E. Bagdasarian.
+    *Persuasion Propagation in LLM Agents* Preprint
+    [[Paper]](https://arxiv.org/abs/2602.00851)
+    [[Code]](https://github.com/HyejunJeong/persuasion-propagation)
+
 - **H. Jeong**, S. Ma, A. Houmansadr. *SoK: Challenges and Opportunities in Federated Unlearning.* Preprint, under review (IEEE Big Data 2025). [[Paper]](https://openreview.net/forum?id=h4BqTU2oVE) [[Slides]](https://hyejunjeong.github.io/assets/papers/nesd.pdf)  
 
 **Patent**
@@ -125,4 +130,4 @@ ICLR 2026. [[Paper]](https://arxiv.org/abs/2410.12010) [[Code]](https://github.c
 
 ---
 
-*Last updated: September 2025*
+*Last updated: February 2026*
